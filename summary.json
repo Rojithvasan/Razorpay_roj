@@ -1,0 +1,73 @@
+{
+  "batch_size": 60,
+  "total_amount_at_risk": 380854.47,
+  "total_amount_recovered": 159396.71,
+  "amount_recovery_rate_pct": 41.9,
+  "payment_count_recovery_rate_pct": 48.3,
+  "unresolved_count": 31,
+  "unresolved_payment_ids": [
+    "pay_1002",
+    "pay_1003",
+    "pay_1005",
+    "pay_1008",
+    "pay_1010",
+    "pay_1013",
+    "pay_1015",
+    "pay_1016",
+    "pay_1019",
+    "pay_1020",
+    "pay_1023",
+    "pay_1024",
+    "pay_1025",
+    "pay_1026",
+    "pay_1029",
+    "pay_1031",
+    "pay_1033",
+    "pay_1034",
+    "pay_1037",
+    "pay_1038",
+    "pay_1043",
+    "pay_1045",
+    "pay_1046",
+    "pay_1047",
+    "pay_1052",
+    "pay_1053",
+    "pay_1054",
+    "pay_1056",
+    "pay_1057",
+    "pay_1059",
+    "pay_1060"
+  ],
+  "breakdown_by_failure_reason": {
+    "insufficient_funds": {
+      "total": 9,
+      "recovered": 2,
+      "recovery_rate_pct": 22.2
+    },
+    "bank_server_timeout": {
+      "total": 14,
+      "recovered": 7,
+      "recovery_rate_pct": 50.0
+    },
+    "card_declined_issuer": {
+      "total": 8,
+      "recovered": 4,
+      "recovery_rate_pct": 50.0
+    },
+    "network_error": {
+      "total": 12,
+      "recovered": 8,
+      "recovery_rate_pct": 66.7
+    },
+    "otp_not_entered": {
+      "total": 10,
+      "recovered": 6,
+      "recovery_rate_pct": 60.0
+    },
+    "invalid_vpa": {
+      "total": 7,
+      "recovered": 2,
+      "recovery_rate_pct": 28.6
+    }
+  }
+}
